@@ -1,8 +1,8 @@
 // support for .env, .env.development, and .env.production
 require("dotenv").config()
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
+require('dotenv').config({
+    path: `${__dirname}/.env.development`
+  })
 
 module.exports = {
   siteMetadata: {
