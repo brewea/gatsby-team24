@@ -1,3 +1,12 @@
+**_FOR TEAM 24_**
+
+1. Run "npm install" (This will install any necessary npm scripts for you)
+2. Run "yarn clean" (This will remove previous build files)
+3. To run the app "npm start"
+4. As you make saves to the DatoCMS gatsby pages, you will see it update on the cmdline then refresh the page. Updates should be shown after it refreshes.
+
+---
+
 <a href="https://www.gatsbyjs.com">
   <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
 </a>
@@ -22,7 +31,7 @@ You can find your API token under the Settings > API tokens section of your proj
 
    Use the Gatsby CLI to get started locally:
 
-   ```sh repo
+   ```cd Gatsby-Team24
    npx gatsby new my-homepage https://github.com/gatsbyjs/gatsby-starter-datocms-homepage
    ```
 
@@ -38,7 +47,7 @@ After setting up the cloned DatoCMS project, from your site's root directory, ru
 
 ```sh
 cd my-homepage
-yarn setup
+npm setup
 ```
 
 This will run a script to create `.env.development` and `.env.production` files for you populated with your DatoCMS project environment variables.
@@ -48,7 +57,7 @@ This will run a script to create `.env.development` and `.env.production` files 
    In your site directory, start the development server:
 
    ```sh
-   yarn start
+   npm start
    ```
 
    Your site should now be running at <http://localhost:8000>
