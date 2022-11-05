@@ -1,9 +1,15 @@
 **_FOR TEAM 24_**
 
 1. Run "npm install" (This will install any necessary npm scripts for you)
-2. Run "yarn clean" (This will remove previous build files)
-3. To run the app "npm start"
-4. As you make saves to the DatoCMS gatsby pages, you will see it update on the cmdline then refresh the page. Updates should be shown after it refreshes.
+2. Run "yarn setup" (This is where you enter the read-only api key)
+   2a. To get the read only api key, go to https://clemson-gatsby.admin.datocms.com/admin/access_tokens
+   2b. Select read only API token.
+   2c-a. Justin, this is where you will copy your own API token and paste into the terminal
+   2c-b. Copy the API Token "29655d3b773e88c469212fd4795faa" and paste into terminal
+   2d. Environment name is "main"
+3. Run "yarn clean" (This will remove previous build files)
+4. To run the app "npm start"
+5. As you make saves to the DatoCMS gatsby pages, you will see it update on the cmdline then refresh the page. Updates should be shown after it refreshes.
 
 ---
 
